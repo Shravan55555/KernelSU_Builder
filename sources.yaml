@@ -75,7 +75,7 @@ Clean:
 KernelSU:
   version:
     stable-pin:
-      - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s kernelsu-version
+      - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
     stable:
       - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
     unstable:
@@ -84,6 +84,6 @@ KernelSU:
 AnyKernel3:
   version:
     nashc:
-      - git clone https://github.com/HowWof/AnyKernel3.git -b master
+      - git clone https://github.com/shravansayz/AnyKernel3.git -b test
     test:
       - echo "Test Success!"
