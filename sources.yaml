@@ -1,6 +1,6 @@
 LineageOS-20:
   kernel:
-    - git clone https://github.com/user-why-red/android_kernel_realme_sdm710_49.git -b android-4.9-stable
+    - git clone https://github.com/Shravan55555/kernel_realme_sdm710.git -b 14
   clang:
     - git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master
   config:
