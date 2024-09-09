@@ -37,6 +37,6 @@ KernelSU:
 AnyKernel3:
   version:
     nashc:
-      - git clone https://github.com/shravansayz/AnyKernel3.git -b test
+      - git clone https://github.com/shravansayz/AnyKernel3.git -b master
     test:
       - echo "Test Success!"
