@@ -1,6 +1,6 @@
-BloodMoon-RMX1901:
+San-Kernel-RMX1901:
   kernel:
-    - git clone https://github.com/shravansayz/kernel_realme_sdm710.git -b 14
+    - git clone https://github.com/user-why-red/android_kernel_realme_sdm710_49.git -b stable-release
   clang:
     - git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master
   config:
@@ -37,6 +37,6 @@ KernelSU:
 AnyKernel3:
   version:
     nashc:
-      - git clone https://github.com/shravansayz/AnyKernel3.git -b master
+      - git clone https://github.com/sksayz5/AnyKernel3.git -b master
     test:
       - echo "Test Success!"
