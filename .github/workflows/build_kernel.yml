@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: ["BloodMoon-RMX1901"]
+        version: ["San-Kernel-RMX1901"]
 
     env:
       VERSION: ${{ matrix.version }}
