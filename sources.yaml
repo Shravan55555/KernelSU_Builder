@@ -1,6 +1,6 @@
 San-Kernel-RMX1901:
   kernel:
-    - git clone https://github.com/user-why-red/android_kernel_realme_sdm710_49.git -b stable-release
+    - git clone https://github.com/Shravan55555/kernel_realme_sdm710.git -b testttt
   clang:
     - git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master
   config:
@@ -28,15 +28,13 @@ Clean:
 KernelSU:
   version:
     stable-pin:
-      - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
-    stable:
-      - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+      - curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -
     unstable:
-      - curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
+      - curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next-susfs-4.9
 
 AnyKernel3:
   version:
     nashc:
-      - git clone https://github.com/sksayz5/AnyKernel3.git -b master
+      - git clone https://github.com/shravansayz/AnyKernel3.git -b master
     test:
       - echo "Test Success!"
